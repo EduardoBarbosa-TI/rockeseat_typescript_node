@@ -20,8 +20,8 @@ class App {
   }
 
   private async database (): Promise<void> {
-    const username = 'edugh'
-    const password = '06e08G12'
+    const username = 'name'
+    const password = 'senha'
     try {
       const connectionString = `mongodb+srv://${username}:${password}@edudb.uqsau8h.mongodb.net/?retryWrites=true&w=majority`
       await mongoose.connect(connectionString)
